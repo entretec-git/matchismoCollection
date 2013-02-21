@@ -1,14 +1,14 @@
 //
-//  collectionAppDelegate.m
-//  MatchismoCollection
+//  CardPlayAppDelegate.m
+//  machismo
 //
-//  Created by mike on 21/02/13.
+//  Created by mike on 6/02/13.
 //  Copyright (c) 2013 mike. All rights reserved.
 //
 
-#import "collectionAppDelegate.h"
+#import "CardPlayAppDelegate.h"
 
-@implementation collectionAppDelegate
+@implementation CardPlayAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
