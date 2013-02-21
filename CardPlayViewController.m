@@ -81,6 +81,15 @@
 
 -(void) updateUI
 {
+    for (UICollectionViewCell *cell in [self.cardCollectionView visibleCells])
+        {
+            NSIndexPath *indexPath = [self.cardCollectionView indexPathForCell:cell];
+            Card * card = [self.game cardAtIndex:indexPath.item];
+            [self updateCell:cell usingCard:card];
+            
+            
+    }
+    
     
     self.scoreLabel.text = [NSString stringWithFormat:@"Score %d", self.game.score];
     self.resultsLabel.text = self.game.resultDialog;
