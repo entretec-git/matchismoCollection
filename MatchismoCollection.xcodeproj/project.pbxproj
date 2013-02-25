@@ -152,7 +152,6 @@
 			isa = PBXGroup;
 			children = (
 				1656303616D6512A0065C5E8 /* MainStoryboard.storyboard */,
-				16562FDD16D6505A0065C5E8 /* Model */,
 				16562FD016D650590065C5E8 /* CardPlayViewController.h */,
 				16562FD116D650590065C5E8 /* CardPlayViewController.m */,
 				16562FD516D650590065C5E8 /* GameResultsViewController.h */,
@@ -163,6 +162,7 @@
 				16562FF916D6505A0065C5E8 /* PlayingCardCollectionViewCell.m */,
 				16562FFA16D6505A0065C5E8 /* PlayingCardView.h */,
 				16562FFB16D6505A0065C5E8 /* PlayingCardView.m */,
+				16562FDD16D6505A0065C5E8 /* Model */,
 				16562FAE16D650590065C5E8 /* cardimages */,
 				16562F9116D64FFA0065C5E8 /* Supporting Files */,
 				16562F8916D64FFA0065C5E8 /* Frameworks */,
@@ -498,6 +498,7 @@
 				16562FAC16D64FFA0065C5E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
